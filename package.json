@@ -1,6 +1,6 @@
 {
   "name": "eisen-node",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "个人基于基本Node api 的扩展",
   "type": "commonjs",
   "main": "dist/main.js",
