@@ -1,10 +1,10 @@
 {
   "name": "eisen-node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "个人基于基本Node api 的扩展",
   "type": "commonjs",
   "main": "dist/main.js",
-  "author": "Eisen <1612077155@qq.com>",
+  "author": "",
   "types": "./types/main.d.ts",
   "exports": {
     "require": "./dist/main.js",
@@ -15,7 +15,6 @@
     "build": "node ./esbuild.config.js",
     "patch": "npm version patch && npm publish "
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "esbuild": "^0.24.0",
