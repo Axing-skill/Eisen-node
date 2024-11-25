@@ -1,6 +1,6 @@
 declare module "eisen-node" {
-  const ePath: {
-    judgeAbsolutePath(pathStr: string): boolean;
-    getAbsolutePath(pathStr: string): string;
-  };
+  namespace ePath {
+    function judgeAbsolutePath(pathStr: string): boolean;
+    function getAbsolutePath(pathStr: string): string;
+  }
 }
