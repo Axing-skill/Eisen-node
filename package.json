@@ -13,7 +13,7 @@
   "scripts": {
     "test": "jest",
     "build": "node ./esbuild.config.js",
-    "patch": "npm run build && npm version patch && npm publish "
+    "patch": "npm run build && npm version patch && npm publish"
   },
   "license": "ISC",
   "devDependencies": {
