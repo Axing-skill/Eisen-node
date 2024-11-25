@@ -12,7 +12,8 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "node ./esbuild.config.js"
+    "build": "node ./esbuild.config.js",
+    "patch": "npm version patch && npm publish "
   },
   "author": "",
   "license": "ISC",
