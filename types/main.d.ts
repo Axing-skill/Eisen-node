@@ -1,4 +1,4 @@
-declare module "@eisen-node" {
+declare module "eisen-node" {
   const ePath: {
     judgeAbsolutePath(pathStr: string): boolean;
     getAbsolutePath(pathStr: string): string;
