@@ -1,5 +1,5 @@
 {
-  "name": "Eisen-node",
+  "name": "eisen-node",
   "version": "1.0.0",
   "description": "个人基于基本Node api 的扩展",
   "type": "commonjs",
